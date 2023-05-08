@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px 16px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+main {
+  
+  height: 16px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+ul li {
+  padding: 16px 32px;
+}
+li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(192, 191, 189);
+}
+li a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #8071d0;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+.account button {
+  padding: 16px 32px;
+  height: 56px;
+  border-radius: 24px;
+  background-color: #ffd8db;
+  border: none;
+  color: #a389cc;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  top: 192px;
+  z-index: -1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.left-container {
+  padding: 16px 48px;
+  padding-left: 128px;
+}
+.right-container {
+  padding-right: 16px;
+}
+
+h1 {
+  font-size: 64px;
+}
+h1 span {
+  color: #5243c0;
+}
+.heading-content {
+  color: rgb(85, 79, 79);
+  font-size: 16px;
+  padding: 32px 0px;
+}
+
+.new-account {
+  padding: 16px 32px;
+  height: 56px;
+  border-radius: 24px;
+  color: #fff;
+  border: none;
+  background-color: #5243c0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 96px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 8px 1px rgb(245, 245, 245);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(245, 245, 245);
+}
+.card:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.card:hover .card-checkbox-name img {
+  content: url("./images/tick-blue.png");
+}
+
+.card div {
+  margin: 8px 0px;
+}
+.card .card-checkbox-name {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  width: 176px;
+}
+.card .card-color {
+  margin-right: 16px;
+}
+.card-name {
+  padding-left: 16px;
+}
+.card-date {
+  color: rgb(192, 191, 189);
+  padding: 0px 32px;
+}
+.user-button {
+  height: 14px;
+  width: 28px;
+  border: none;
+  border-radius: 8px;
+}
+
+.user-button1 {
+  background-color: #fed7da;
+}
+.user-button2 {
+  background-color: #fd6534;
+}
+.user-button3 {
+  background-color: #9ed095;
+}
+.user-button4 {
+  background-color: #ffe4a0;
+}
